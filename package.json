@@ -1,0 +1,26 @@
+{
+  "name": "sem-scraper",
+  "version": "1.0.0",
+  "description": "Our proprietary Quantum Thrust technology to thrust us into the profit margin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ragepanda/sem-scraper.git"
+  },
+  "author": "John Woltz, Dan Theodore, Stan Jarozewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ragepanda/sem-scraper/issues"
+  },
+  "homepage": "https://github.com/Ragepanda/sem-scraper#readme",
+  "dependencies": {
+    "csv-parser": "^2.3.2",
+    "csv-writer": "^1.5.0",
+    "fs": "0.0.1-security",
+    "puppeteer": "^2.0.0",
+    "random-useragent": "^0.3.1"
+  }
+}
