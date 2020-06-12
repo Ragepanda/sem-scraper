@@ -1,2 +1,8 @@
 # sem-scraper
-Using Puppeteer via Node to look at competitor links using a starting profile page, then adding their URLs to a JSON file. This is a web scraping tool that was developed as a marketing tool. The web page this tool crawls provides links and view counts of URLs that cover similar marketing profiles as the inputted website. This app then goes through the links for each of these results, and outputs the website and viewcounts to a CSV file for analysis. This tool was used as a business solution for gathering leads to market for ad space and was used primarily to gather dossiers of educational websites. 
+This app takes an input of a csv file filled with links of competitors (gathered from SEMrush) of a chosen website. This app then takes those competitors and navigates to siteprice.com, a website that offers view counts that are far more accurate than SEM rush, but requires navigation to an individual page and a wait time for siteprice to gather the information. This tool was developed as a means to remove the need to manually gather this data by instead using Puppeteer to navigate the pages individually and output this information to a csv. 
+
+Our marketing team was able to use this scraped data to rank/prioritize which websites needed to be markted to, with the aim of them joining our company's ad network. 
+
+In order to use this tool, you can provide your own data.csv file with links you want to get precise monthly viewcounts for, and you will also need to input your personal google information at lines 73 and 81 of the index.js file. To launch the app, run the index.js in node and let it run.
+
+Edit: This app currently is broken due to advertising changes to siteprice.com. 
